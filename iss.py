@@ -1,7 +1,5 @@
 import urllib.request, json
 
-def GetIssLocation():
-    return ""
 # Checkout what the api returns
 issUrl = 'http://api.open-notify.org/iss-now.json'
 
@@ -23,7 +21,6 @@ for person in people:
 issPosition = {'latitude': float(result['iss_position']['latitude']), 'longitude': float(result['iss_position']['longitude'])}
 latitude = float(result['iss_position']['latitude'])
 longitude = float(result['iss_position']['longitude'])
-
 
 import turtle
 

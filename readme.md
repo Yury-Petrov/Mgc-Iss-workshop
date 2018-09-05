@@ -8,6 +8,13 @@ and show who is currently out there in space! All with just a little bit of pyth
 Please make sure that python is install on your PC and there is an internet access as our application will need to communicate
 to orher programs to get updates of the Space Station Location.
 
+## Things to be aware of
+
+ - API (Application Programming Interface) is an abstraction that allows different machines talk to each other over a network.
+ Typically, APIs would used a specific format of communication, for example JSON.
+ - JSON (JavaScript Object Notation) - is a standartized format that is readable for both machines and humans. It allows different systems
+ to understand messages sent and reseaved between each other.  
+
 ## The main task
 
 Our main goal for today will be to find where the International Space Station is right now and show it on a map.
@@ -80,7 +87,7 @@ Time to draw the ISS icon on top of the map:
 screen.register_shape('iss.gif')
 iss = turtle.Turtle()
 iss.shape('iss.gif')
-# moving the iss figure to where it is right now
+# moving the iss figure to where it is right now
 iss.penup()
 iss.goto(longitude, latitude)
 screen.exitonclick()
