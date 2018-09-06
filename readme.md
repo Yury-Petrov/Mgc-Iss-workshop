@@ -21,6 +21,10 @@ Our main goal for today will be to find where the International Space Station is
 To do that we will need to use an API (Application Programming Interface) to get its location saved on the internet.
 The position is updated every second that is quite accurate for something that is flying so far from us with almost nothing around!
 
+### Step 0
+
+Open the Visual Studio Code text editor and click File -> open folder -> [navigate to the folder where the workshop materials are]
+
 ### Step 1
 
 Firstly, lets see what API response we would get and get to know the data.
