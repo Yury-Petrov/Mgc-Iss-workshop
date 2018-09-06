@@ -55,7 +55,7 @@ Then, let's type in the following:
 import urllib.request, json 
 
 # getting data from the api
-issUrl = 'http://api.open-notify.org/iss-now.json‘
+issUrl = 'http://api.open-notify.org/iss-now.json'
 response = urllib.request.urlopen(issUrl)
 result = json.loads(response.read())
 
@@ -76,7 +76,7 @@ import turtle
 screen = turtle.Screen()
 screen.setup(720,360)
 screen.setworldcoordinates(-180,-90, 180, 90)
-#screen.bgpic('map.gif')
+screen.bgpic('map.gif')
 ```
 
 ### Step 4 Drawing the ISS on the map
